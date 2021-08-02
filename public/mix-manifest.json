@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/admin/layout.js": "/js/admin/layout.js",
+    "/js/home/layout.js": "/js/home/layout.js",
+    "/js/home/index.js": "/js/home/index.js",
+    "/css/admin/layout.css": "/css/admin/layout.css",
+    "/css/home/layout.css": "/css/home/layout.css",
+    "/css/admin/show.css": "/css/admin/show.css",
+    "/css/admin/create.css": "/css/admin/create.css",
+    "/css/admin/index.css": "/css/admin/index.css",
+    "/css/home/index.css": "/css/home/index.css"
+}

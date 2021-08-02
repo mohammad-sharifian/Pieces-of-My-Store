@@ -1,0 +1,398 @@
+#content .page .page-header .wrapp .collapse-wrap {
+  position: relative;
+  display: inline-block;
+}
+#content .page .page-header .wrapp .collapse-wrap .collapse-edit {
+  position: absolute;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  left: 50%;
+  margin-left: -150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 7px;
+  z-index: 1;
+  background-color: #17a2b8;
+}
+#content .page .page-header .wrapp .collapse-wrap .collapse-edit a {
+  margin-left: 2px;
+  color: white;
+  border-color: white;
+  white-space: nowrap;
+}
+#content .page .page-header .wrapp .collapse-wrap .collapse-edit a:hover {
+  background-color: #fff;
+  color: #17a2b8;
+  border-color: #17a2b8;
+}
+#content .page .page-header .wrapp .collapse-wrap .collapse-edit a:last-child {
+  margin-left: 0;
+}
+#content .page .page-content .form {
+  display: flex;
+  flex-wrap: wrap;
+}
+#content .page .page-content .form h5, #content .page .page-content .form p {
+  font-size: 1.2rem;
+}
+#content .page .page-content .form .input-g {
+  margin-left: 15px;
+  margin-bottom: 18px;
+}
+#content .page .page-content .form .input-g input,
+#content .page .page-content .form .input-g select {
+  outline: none;
+  height: 40px;
+  border: 1px solid #d9d9db;
+  border-radius: 5px;
+  width: 300px;
+  padding-right: 10px;
+}
+#content .page .page-content .form .input-g textarea {
+  outline: none;
+  border: 1px solid #d9d9db;
+  border-radius: 5px;
+  padding-right: 10px;
+}
+@media (min-width: 576px) {
+  #content .page .page-content .form .input-g textarea {
+    width: 400px;
+    height: 100px;
+  }
+}
+@media (min-width: 768px) {
+  #content .page .page-content .form .input-g textarea {
+    width: 450px;
+    height: 100px;
+  }
+}
+@media (min-width: 992px) {
+  #content .page .page-content .form .input-g textarea {
+    width: 700px;
+    height: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  #content .page .page-content .form .input-g textarea {
+    width: 920px;
+    height: 100px;
+  }
+}
+#content .page .page-content .form .input-g .file-wr {
+  position: relative;
+}
+#content .page .page-content .form .input-g .file-wr label.text-button {
+  position: absolute;
+  line-height: 40px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #d9d9db;
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+#content .page .page-content .form .input-g .file-wr label.text-button:hover {
+  cursor: pointer;
+}
+#content .page .page-content .form .input-g .file-wr label.text-button:focus {
+  border: 3px solid rgba(4, 197, 126, 0.4);
+  outline: 0;
+}
+#content .page .page-content .form .input-g .file-wr label.text-file {
+  position: absolute;
+  cursor: pointer;
+  width: 75px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+  line-height: 40px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #EAECF4;
+}
+#content .page .page-content .form button {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#content .page .page-content .form #attrtypes {
+  display: flex;
+  flex-wrap: wrap;
+}
+#content .page .page-content .form .collapse-variation {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+#content .page .page-content .form .primary-image {
+  width: 320px;
+  height: 320px;
+  border-radius: 7px;
+  border: 1px solid #e0e0e0;
+  position: relative;
+}
+#content .page .page-content .form .primary-image label {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #00ac6d;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: small;
+  color: #fff;
+}
+#content .page .page-content .form .primary-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+#content .page .page-content .form .images {
+  display: flex;
+  flex-wrap: wrap;
+}
+#content .page .page-content .form .images .image-wrapp {
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  border-radius: 7px;
+  border: 1px solid #e0e0e0;
+}
+#content .page .page-content .form .images .image-wrapp img {
+  display: block;
+  width: 320px;
+  height: 320px;
+  border-radius: 7px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#content .page .page-content .form .images .image-wrapp img.trashedd {
+  width: 200px;
+  height: 200px;
+}
+#content .page .page-content .form .images .image-wrapp form .modalDelWrapp,
+#content .page .page-content .form .images .image-wrapp form .btn-wrapp {
+  position: relative;
+}
+#content .page .page-content .form .images .image-wrapp form .modalDelWrapp button,
+#content .page .page-content .form .images .image-wrapp form .btn-wrapp button {
+  position: relative;
+}
+#content .page .page-content .form .images .image-wrapp form .modalDelWrapp button .spinner,
+#content .page .page-content .form .images .image-wrapp form .btn-wrapp button .spinner {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #00d346;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  margin: auto;
+  left: -30px;
+  top: 0;
+  bottom: 0;
+  -webkit-animation-name: spinner;
+          animation-name: spinner;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1000deg);
+  }
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1000deg);
+  }
+}
+#content .page .page-content .form .images .image-wrapp form .modalDelWrapp .modalDel,
+#content .page .page-content .form .images .image-wrapp form .modalDelWrapp .modalForcDel,
+#content .page .page-content .form .images .image-wrapp form .btn-wrapp .modalDel,
+#content .page .page-content .form .images .image-wrapp form .btn-wrapp .modalForcDel {
+  position: absolute;
+  width: 250px;
+  height: 120px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  top: -120px;
+  left: 50%;
+  margin-left: -125px;
+  border: 1px solid rgba(255, 0, 0, 0.5);
+  background-color: rgba(248, 248, 248, 0.7);
+  border-radius: 7px;
+  font-weight: bolder;
+  color: white;
+}
+#content .page .page-content .form .images .image-wrapp form .modalDelWrapp .modalDel span,
+#content .page .page-content .form .images .image-wrapp form .modalDelWrapp .modalForcDel span,
+#content .page .page-content .form .images .image-wrapp form .btn-wrapp .modalDel span,
+#content .page .page-content .form .images .image-wrapp form .btn-wrapp .modalForcDel span {
+  text-shadow: 0 0 10px black;
+}
+@media (max-width: 576px) {
+  #content .page {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 1rem;
+  }
+  #content .page .page-header {
+    padding: 12px 15px 0 15px;
+  }
+  #content .page .page-header .wrapp {
+    display: block;
+  }
+  #content .page .page-header .wrapp .title {
+    font-size: 1.2rem;
+  }
+  #content .page .page-header .wrapp .collapse-wrap #btn-collapse-edit {
+    white-space: nowrap;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  #content .page .page-header .wrapp .collapse-wrap .collapse-edit {
+    width: 180px;
+    left: 5px;
+  }
+  #content .page .page-header .wrapp .back-wrap a.back,
+#content .page .page-header .wrapp .back-wrap .virayesh {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    white-space: nowrap;
+  }
+  #content .page .page-content .form {
+    flex-direction: column;
+    align-items: center;
+  }
+  #content .page .page-content .form h5, #content .page .page-content .form p {
+    font-size: 1.2rem;
+  }
+  #content .page .page-content .form .input-g {
+    margin-left: 0;
+    width: 280;
+  }
+  #content .page .page-content .form .input-g input,
+#content .page .page-content .form .input-g select {
+    width: 280px;
+    height: 30px;
+  }
+  #content .page .page-content .form .input-g textarea {
+    width: 280px;
+    height: 70px;
+  }
+  #content .page .page-content .form .input-g .file-wr {
+    line-height: 30px;
+  }
+  #content .page .page-content .form .input-g .file-wr label.text-file {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+  }
+  #content .page .page-content .form .input-g .dropdown.bootstrap-select {
+    width: 280px;
+    height: 30px;
+  }
+  #content .page .page-content .form .input-g .dropdown.bootstrap-select .dropdown-menu.show .bs-searchbox .form-control {
+    height: calc(1.5em + 0.75rem + -7px);
+  }
+  #content .page .page-content .form .input-g .dropdown.bootstrap-select button {
+    line-height: 20px;
+  }
+  #content .page .page-content .form .collapse-variation p {
+    margin: auto;
+  }
+  #content .page .page-content .form .collapse-variation label {
+    margin-bottom: 1px;
+  }
+  #content .page .page-content .form .collapse-variation .input-g {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  #content .page .page-content .form .collapse-variation .input-g input {
+    width: 300px;
+  }
+  #content .page .page-content .form .primary-image {
+    width: 280px;
+    height: 280px;
+  }
+  #content .page .page-content .form .images .image-wrapp {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #content .page .page-content .form .images .image-wrapp img {
+    margin: 0 auto 7px auto;
+    width: 280px;
+    height: 280px;
+  }
+  #content .page .page-content .form .images .image-wrapp form .modalDelWrapp button,
+#content .page .page-content .form .images .image-wrapp form .btn-wrapp button {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+}
+
+@media (max-width: 576px) {
+  #content.h-toggle .page .page-content .form h5 {
+    margin: 0;
+  }
+  #content.h-toggle .page .page-content .form .input-g input,
+#content.h-toggle .page .page-content .form .input-g select {
+    width: 260px;
+  }
+  #content.h-toggle .page .page-content .form .input-g textarea {
+    width: 260px;
+    height: 80px;
+  }
+  #content.h-toggle .page .page-content .form .collapse-variation {
+    padding: 10px;
+  }
+  #content.h-toggle .page .page-content .form .input-g input {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    min-width: 235px;
+  }
+  #content.h-toggle .page .page-content .form .primary-image {
+    width: 250px;
+    height: 250px;
+  }
+  #content.h-toggle .page .page-content .form .images img {
+    width: 250px;
+    height: 250px;
+  }
+  #content.h-toggle .page .page-content .form .images > .image-wrapp img {
+    width: 250px;
+    height: 250px;
+  }
+  #content.h-toggle .page .page-content .form .images > .image-wrapp img.trashedd {
+    width: 200px;
+    height: 200px;
+  }
+}

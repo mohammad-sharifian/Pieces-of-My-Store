@@ -1,0 +1,302 @@
+
+#content {
+
+    .page {
+
+        .page-header {
+
+            .wrapp {
+                position: relative;
+
+                .input-g {
+                    margin-left: 15px;
+                    margin-bottom:0;
+                    width: 250px;
+
+                    select {
+                        outline: none;
+                        box-shadow: none;
+                        height: 30px;
+                        border: 1px solid #d9d9db;
+                        border-radius: 5px;
+                        width: 250px;
+                        padding-right: 10px;
+                        &:focus {
+                            border: 3px solid rgb(4, 197, 126, .4);
+                        }
+                    }
+
+                    .dropdown.bootstrap-select{
+                        outline: none;
+                        box-shadow: none;
+                        height: 30px;
+                        border: 1px solid #d9d9db;
+                        border-radius: 5px;
+                        width: 250px;
+                        margin-top: 0;
+                        &:focus {
+                            border: 3px solid rgb(4, 197, 126, .4);
+                        }
+
+                        .dropdown-menu.show {
+                            width: 100%;
+
+                            .bs-searchbox {
+
+                                .form-control {
+                                    height: calc(1.5em + 0.75rem + -7px);
+
+                                }
+                            }
+
+                            .dropdown-menu.inner.show {
+
+                                .dropdown-item {
+                                    text-align: right;
+                                    padding-right: 10px;
+                                }
+
+                                .dropdown-item.active.selected {
+                                    background: #fff;
+                                    color: rgb(4, 197, 126);
+                                    text-align: right;
+                                }
+                            }
+                        }
+
+                        button {
+                            margin: 0;
+                            width: 100%;
+                            background: #fff;
+                            border: none;
+                            line-height: 15px;
+
+                            .filter-option {
+
+                                .filter-option-inner {
+
+                                    .filter-option-inner-inner {
+                                        text-align: right;
+                                    }
+                                }
+                            }
+
+                        }
+
+                        input {
+                            width: 99%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .page-content {
+
+            .table-wr {
+                border-radius: 5px;
+                overflow: hidden;
+                margin-bottom: 20px;
+
+                table {
+                    margin-bottom: 0;
+
+                    tbody {
+
+                        tr {
+
+                            td {
+                                position: relative;
+                                white-space: nowrap;
+
+                                a {
+                                    img {
+                                        width: 50px;
+                                        height: 50px;
+                                        border-radius: 5px;
+                                        transition: all .3s;
+                                        &:hover {
+                                            border: 1px solid rgb(20, 252, 109);
+                                        }
+                                    }
+                                }
+
+                                .collapse-edit {
+                                    position: absolute;
+                                    min-width: max-content;
+                                    left: 50px;
+                                    top: 0;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    padding: 5px;
+                                    background-color: #fff;
+                                    border: 1px solid rgb(224, 224, 224);
+                                    border-radius: 7px;
+                                    z-index: 1;
+                                    background-color:rgb(23,162,184);
+
+                                    a{
+                                        margin-left: 2px;
+                                        font-size: smaller;
+                                        color: white;
+                                        border-color: white;
+                                        &:hover {
+                                            background-color: #fff;
+                                            color: rgb(23,162,184);
+                                            border-color: rgb(23,162,184);
+                                        }
+                                    }
+                                    a:last-child {
+                                        margin-left: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .pagination {
+                    margin-top: 20px;
+
+                    .page-item {
+
+                        .page-link {
+                            color: #8F94A4;
+                        }
+                    }
+
+                    .page-item.active {
+
+                        .page-link {
+                           background-color: #ECECEC;
+                           border-color: #8F94A4;
+                           color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Response For Max-Width 576px
+    @media (max-width:576px)
+    {
+        .page {
+            margin-right: 0;
+            margin-left: 0;
+            font-size: 1rem;
+
+            .page-header {
+                padding: 12px 12px 0 12px;
+
+                hr {
+                    margin-top: 10px;
+                }
+
+                .wrapp {
+
+                    .title {
+                        font-size: 1.2rem;
+                        text-align: center;
+                        max-width: fit-content;
+                    }
+                    .input-g {
+
+                        label {
+                            display: none;
+                        }
+                        margin-left: 0;
+                        width: 30px;
+
+                        select {
+                            height: 30px;
+                            width: 30px;
+                        }
+
+                        .dropdown.bootstrap-select{
+                            width: 30px;
+                            height: 30px;
+
+                            .dropdown-menu.show {
+                                width: 200px;
+
+                                .bs-searchbox {
+
+                                    .form-control {
+                                        height: calc(1.5em + 0.75rem + -7px);
+                                    }
+                                }
+
+                                .inner.show {
+                                    border: 1px solid rgb(200, 200, 200);
+
+                                    .dropdown-menu.inner.show {
+                                        border: none;
+                                        // .dropdown-item {
+
+                                        // }
+
+                                    }
+                                }
+
+                            }
+
+                            button {
+                                line-height: 15px;
+
+                                .filter-option {
+
+                                    .filter-option-inner {
+
+                                        .filter-option-inner-inner {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    a.back {
+                        max-width: fit-content;
+                        white-space: nowrap;
+
+                        .add {
+                            .res-xs {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .page-content {
+
+                .table-wr {
+
+                    table {
+
+                        tbody {
+
+                            tr {
+
+                                td {
+
+                                    a.btn,
+                                    button {
+                                        white-space: nowrap;
+                                    }
+
+                                    .collapse-edit {
+                                        left: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

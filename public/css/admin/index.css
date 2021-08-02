@@ -1,0 +1,192 @@
+#content .page .page-header .wrapp {
+  position: relative;
+}
+#content .page .page-header .wrapp .input-g {
+  margin-left: 15px;
+  margin-bottom: 0;
+  width: 250px;
+}
+#content .page .page-header .wrapp .input-g select {
+  outline: none;
+  box-shadow: none;
+  height: 30px;
+  border: 1px solid #d9d9db;
+  border-radius: 5px;
+  width: 250px;
+  padding-right: 10px;
+}
+#content .page .page-header .wrapp .input-g select:focus {
+  border: 3px solid rgba(4, 197, 126, 0.4);
+}
+#content .page .page-header .wrapp .input-g .dropdown.bootstrap-select {
+  outline: none;
+  box-shadow: none;
+  height: 30px;
+  border: 1px solid #d9d9db;
+  border-radius: 5px;
+  width: 250px;
+  margin-top: 0;
+}
+#content .page .page-header .wrapp .input-g .dropdown.bootstrap-select:focus {
+  border: 3px solid rgba(4, 197, 126, 0.4);
+}
+#content .page .page-header .wrapp .input-g .dropdown.bootstrap-select .dropdown-menu.show {
+  width: 100%;
+}
+#content .page .page-header .wrapp .input-g .dropdown.bootstrap-select .dropdown-menu.show .bs-searchbox .form-control {
+  height: calc(1.5em + 0.75rem + -7px);
+}
+#content .page .page-header .wrapp .input-g .dropdown.bootstrap-select .dropdown-menu.show .dropdown-menu.inner.show .dropdown-item {
+  text-align: right;
+  padding-right: 10px;
+}
+#content .page .page-header .wrapp .input-g .dropdown.bootstrap-select .dropdown-menu.show .dropdown-menu.inner.show .dropdown-item.active.selected {
+  background: #fff;
+  color: #04c57e;
+  text-align: right;
+}
+#content .page .page-header .wrapp .input-g .dropdown.bootstrap-select button {
+  margin: 0;
+  width: 100%;
+  background: #fff;
+  border: none;
+  line-height: 15px;
+}
+#content .page .page-header .wrapp .input-g .dropdown.bootstrap-select button .filter-option .filter-option-inner .filter-option-inner-inner {
+  text-align: right;
+}
+#content .page .page-header .wrapp .input-g .dropdown.bootstrap-select input {
+  width: 99%;
+}
+#content .page .page-content .table-wr {
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+#content .page .page-content .table-wr table {
+  margin-bottom: 0;
+}
+#content .page .page-content .table-wr table tbody tr td {
+  position: relative;
+  white-space: nowrap;
+}
+#content .page .page-content .table-wr table tbody tr td a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+#content .page .page-content .table-wr table tbody tr td a img:hover {
+  border: 1px solid #14fc6d;
+}
+#content .page .page-content .table-wr table tbody tr td .collapse-edit {
+  position: absolute;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  left: 50px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 7px;
+  z-index: 1;
+  background-color: #17a2b8;
+}
+#content .page .page-content .table-wr table tbody tr td .collapse-edit a {
+  margin-left: 2px;
+  font-size: smaller;
+  color: white;
+  border-color: white;
+}
+#content .page .page-content .table-wr table tbody tr td .collapse-edit a:hover {
+  background-color: #fff;
+  color: #17a2b8;
+  border-color: #17a2b8;
+}
+#content .page .page-content .table-wr table tbody tr td .collapse-edit a:last-child {
+  margin-left: 0;
+}
+#content .page .page-content .table-wr .pagination {
+  margin-top: 20px;
+}
+#content .page .page-content .table-wr .pagination .page-item .page-link {
+  color: #8F94A4;
+}
+#content .page .page-content .table-wr .pagination .page-item.active .page-link {
+  background-color: #ECECEC;
+  border-color: #8F94A4;
+  color: black;
+}
+@media (max-width: 576px) {
+  #content .page {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 1rem;
+  }
+  #content .page .page-header {
+    padding: 12px 12px 0 12px;
+  }
+  #content .page .page-header hr {
+    margin-top: 10px;
+  }
+  #content .page .page-header .wrapp .title {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  #content .page .page-header .wrapp .input-g {
+    margin-left: 0;
+    width: 30px;
+  }
+  #content .page .page-header .wrapp .input-g label {
+    display: none;
+  }
+  #content .page .page-header .wrapp .input-g select {
+    height: 30px;
+    width: 30px;
+  }
+  #content .page .page-header .wrapp .input-g .dropdown.bootstrap-select {
+    width: 30px;
+    height: 30px;
+  }
+  #content .page .page-header .wrapp .input-g .dropdown.bootstrap-select .dropdown-menu.show {
+    width: 200px;
+  }
+  #content .page .page-header .wrapp .input-g .dropdown.bootstrap-select .dropdown-menu.show .bs-searchbox .form-control {
+    height: calc(1.5em + 0.75rem + -7px);
+  }
+  #content .page .page-header .wrapp .input-g .dropdown.bootstrap-select .dropdown-menu.show .inner.show {
+    border: 1px solid #c8c8c8;
+  }
+  #content .page .page-header .wrapp .input-g .dropdown.bootstrap-select .dropdown-menu.show .inner.show .dropdown-menu.inner.show {
+    border: none;
+  }
+  #content .page .page-header .wrapp .input-g .dropdown.bootstrap-select button {
+    line-height: 15px;
+  }
+  #content .page .page-header .wrapp .input-g .dropdown.bootstrap-select button .filter-option .filter-option-inner .filter-option-inner-inner {
+    font-size: 14px;
+  }
+  #content .page .page-header .wrapp a.back {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    white-space: nowrap;
+  }
+  #content .page .page-header .wrapp a.back .add .res-xs {
+    display: none;
+  }
+  #content .page .page-content .table-wr table tbody tr td a.btn,
+#content .page .page-content .table-wr table tbody tr td button {
+    white-space: nowrap;
+  }
+  #content .page .page-content .table-wr table tbody tr td .collapse-edit {
+    left: 0;
+  }
+}

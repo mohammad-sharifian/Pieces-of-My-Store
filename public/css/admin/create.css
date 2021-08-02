@@ -1,0 +1,303 @@
+#content .alert.alert-danger {
+  margin: 0 auto 7px auto;
+}
+#content .page .page-content form {
+  display: flex;
+  flex-wrap: wrap;
+}
+#content .page .page-content form .input-g {
+  margin-left: 15px;
+  margin-bottom: 18px;
+}
+#content .page .page-content form .input-g input,
+#content .page .page-content form .input-g select {
+  outline: none;
+  box-shadow: none;
+  height: 40px;
+  border: 1px solid #d9d9db;
+  border-radius: 5px;
+  width: 300px;
+  padding-right: 10px;
+}
+#content .page .page-content form .input-g input:focus,
+#content .page .page-content form .input-g select:focus {
+  border: 3px solid rgba(4, 197, 126, 0.4);
+}
+#content .page .page-content form .input-g textarea {
+  outline: none;
+  border: 1px solid #d9d9db;
+  border-radius: 5px;
+  padding-right: 10px;
+}
+@media (min-width: 576px) {
+  #content .page .page-content form .input-g textarea {
+    width: 400px;
+    height: 100px;
+  }
+}
+@media (min-width: 768px) {
+  #content .page .page-content form .input-g textarea {
+    width: 450px;
+    height: 100px;
+  }
+}
+@media (min-width: 992px) {
+  #content .page .page-content form .input-g textarea {
+    width: 700px;
+    height: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  #content .page .page-content form .input-g textarea {
+    width: 920px;
+    height: 100px;
+  }
+}
+#content .page .page-content form .input-g .file-wr {
+  position: relative;
+}
+#content .page .page-content form .input-g .file-wr label.text-button {
+  position: absolute;
+  line-height: 40px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #d9d9db;
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+#content .page .page-content form .input-g .file-wr label.text-button:hover {
+  cursor: pointer;
+}
+#content .page .page-content form .input-g .file-wr label.text-button:focus {
+  border: 3px solid rgba(4, 197, 126, 0.4);
+  outline: 0;
+}
+#content .page .page-content form .input-g .file-wr label.text-file {
+  position: absolute;
+  cursor: pointer;
+  width: 75px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+  line-height: 40px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #EAECF4;
+}
+#content .page .page-content form .input-g .dropdown.bootstrap-select {
+  outline: none;
+  box-shadow: none;
+  height: 40px;
+  border: 1px solid #d9d9db;
+  border-radius: 5px;
+  width: 300px;
+  margin-top: 0;
+}
+#content .page .page-content form .input-g .dropdown.bootstrap-select:focus {
+  border: 3px solid rgba(4, 197, 126, 0.4);
+}
+#content .page .page-content form .input-g .dropdown.bootstrap-select .dropdown-menu.show {
+  width: 280px;
+}
+#content .page .page-content form .input-g .dropdown.bootstrap-select .dropdown-menu.show .dropdown-menu.inner.show .dropdown-item {
+  text-align: right;
+  padding-right: 10px;
+}
+#content .page .page-content form .input-g .dropdown.bootstrap-select .dropdown-menu.show .dropdown-menu.inner.show .dropdown-item span.text {
+  margin-right: 10px;
+}
+#content .page .page-content form .input-g .dropdown.bootstrap-select .dropdown-menu.show .dropdown-menu.inner.show .dropdown-item.active.selected {
+  background: #fff;
+  color: black;
+  text-align: right;
+}
+#content .page .page-content form .input-g .dropdown.bootstrap-select button {
+  margin: 0;
+  width: 100%;
+  background: #fff;
+  border: none;
+}
+#content .page .page-content form .input-g .dropdown.bootstrap-select button .filter-option .filter-option-inner .filter-option-inner-inner {
+  text-align: right;
+}
+#content .page .page-content form .input-g .dropdown.bootstrap-select input {
+  width: 99%;
+}
+#content .page .page-content form button {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#content .page .page-content form #attrvalues {
+  display: flex;
+  flex-wrap: wrap;
+}
+#content .page .page-content form #varivalues-wr {
+  display: flex;
+  flex-direction: column;
+}
+#content .page .page-content form #varivalues-wr #varivalues .recordset {
+  display: flex;
+  flex-wrap: wrap;
+}
+#content .page .page-content form .collapse-variation {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+#content .page .page-content form .collapse-variation p {
+  margin: auto;
+}
+#content .page .page-content form .collapse-variation label {
+  margin-bottom: 1px;
+}
+#content .page .page-content form .collapse-variation .input-g {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#content .page .page-content form .collapse-variation .input-g input {
+  width: 300px;
+}
+#content .page .page-content form button.sabt-virayesh {
+  margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+  #content .page {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 1rem;
+  }
+  #content .page .page-header {
+    padding: 12px 15px 0 15px;
+  }
+  #content .page .page-header .wrapp .title {
+    font-size: 1.2rem;
+  }
+  #content .page .page-header .wrapp .back-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  #content .page .page-header .wrapp .back-wrap a.back {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    white-space: nowrap;
+  }
+  #content .page .page-header .wrapp hr {
+    margin-top: 10px;
+  }
+  #content .page .page-content form {
+    flex-direction: column;
+    align-items: center;
+  }
+  #content .page .page-content form .input-g {
+    margin-left: 0;
+    width: 280;
+  }
+  #content .page .page-content form .input-g input,
+#content .page .page-content form .input-g select {
+    width: 280px;
+    height: 30px;
+  }
+  #content .page .page-content form .input-g textarea {
+    width: 280px;
+    height: 70px;
+  }
+  #content .page .page-content form .input-g .file-wr label.text-button {
+    line-height: 30px;
+  }
+  #content .page .page-content form .input-g .file-wr label.text-file {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+  }
+  #content .page .page-content form .input-g .dropdown.bootstrap-select {
+    width: 280px;
+    height: 30px;
+  }
+  #content .page .page-content form .input-g .dropdown.bootstrap-select .dropdown-menu.show .bs-searchbox .form-control {
+    height: calc(1.5em + 0.75rem + -7px);
+  }
+  #content .page .page-content form .input-g .dropdown.bootstrap-select button {
+    line-height: 20px;
+  }
+  #content .page .page-content form #attrvalues {
+    justify-content: center;
+  }
+  #content .page .page-content form button.btn-coll {
+    margin-top: 10px;
+  }
+  #content .page .page-content form #varivalues-wr .btnPlus {
+    margin-right: 10px;
+  }
+  #content .page .page-content form #varivalues-wr #varivalues .recordset {
+    justify-content: center;
+  }
+  #content .page .page-content form #varivalues-wr #varivalues .recordset i.btnMinus {
+    margin-right: -25px;
+  }
+  #content .page .page-content form .collapse-variation p {
+    margin: auto;
+  }
+  #content .page .page-content form .collapse-variation label {
+    margin-bottom: 1px;
+  }
+  #content .page .page-content form .collapse-variation .input-g {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  #content .page .page-content form .collapse-variation .input-g input {
+    width: 300px;
+  }
+  #content .page .page-content form button.sabt-virayesh {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #content.h-toggle .page .page-content form .input-g input,
+#content.h-toggle .page .page-content form .input-g select,
+#content.h-toggle .page .page-content form .input-g textarea,
+#content.h-toggle .page .page-content form .input-g .dropdown.bootstrap-select {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    min-width: 240px;
+  }
+  #content.h-toggle .page .page-content form .input-g .dropdown.bootstrap-select .dropdown-menu.show {
+    width: 257px;
+  }
+  #content.h-toggle .page .page-content form .input-g input.file {
+    max-width: 240px;
+  }
+  #content.h-toggle .page .page-content form #varivalues-wr #varivalues .recordset i.btnMinus {
+    margin-right: 0;
+  }
+  #content.h-toggle .page .page-content form .collapse-variation {
+    padding: 10px;
+  }
+  #content.h-toggle .page .page-content form .collapse-variation .input-g input {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    min-width: 235px;
+  }
+}
+
+.popover.mds-bootstrap-persian-datetime-picker-popover {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}

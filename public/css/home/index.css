@@ -1,0 +1,74 @@
+#content .slider {
+  padding-top: 10px;
+  background-color: rgba(135, 248, 159, 0.2);
+  width: 90vw;
+  margin: auto;
+}
+#content .slider .swiper-container {
+  width: 90vw;
+  height: 800px;
+  z-index: 0;
+  outline: none;
+}
+#content .slider .swiper-container .swiper-wrapper .swiper-slide .wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  height: 800px;
+  margin: auto;
+}
+#content .slider .swiper-container .swiper-wrapper .swiper-slide .wrapper .content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 60px;
+  opacity: 0;
+  width: 600px;
+  height: 100%;
+  left: -200px;
+  transition: all 2000ms;
+}
+#content .slider .swiper-container .swiper-wrapper .swiper-slide .wrapper .content .text {
+  margin-top: 30px;
+}
+#content .slider .swiper-container .swiper-wrapper .swiper-slide .wrapper .content a.btn {
+  margin-top: 40px;
+}
+#content .slider .swiper-container .swiper-wrapper .swiper-slide .wrapper .content a.btn .text {
+  font-size: 13px;
+}
+#content .slider .swiper-container .swiper-wrapper .swiper-slide .wrapper .content a.btn i {
+  font-size: 13px;
+}
+#content .slider .swiper-container .swiper-wrapper .swiper-slide .wrapper img {
+  display: block;
+  position: absolute;
+  opacity: 0;
+  width: 600px;
+  height: 100%;
+  right: -200px;
+  transition: all 2000ms;
+}
+#content .slider .swiper-container .swiper-button-next,
+#content .slider .swiper-container .swiper-button-prev {
+  opacity: 0.4;
+  padding: 30px;
+  border-radius: 50%;
+  transition: all 400ms;
+  color: #00ce1b;
+}
+#content .slider .swiper-container .swiper-button-next::after,
+#content .slider .swiper-container .swiper-button-prev::after {
+  font-size: 30px;
+}
+#content .slider .swiper-container .swiper-button-next:hover,
+#content .slider .swiper-container .swiper-button-prev:hover {
+  opacity: 1;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 206, 27, 0.3);
+  background-color: #fff;
+  transform: scale(1.1);
+}

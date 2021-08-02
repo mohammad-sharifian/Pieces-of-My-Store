@@ -1,0 +1,436 @@
+
+
+#content {
+
+    .alert.alert-danger {
+
+        margin:0 auto 7px auto;
+    }
+
+    .page {
+
+        .page-content {
+
+            form {
+                display: flex;
+                flex-wrap: wrap;
+
+                .input-g {
+                    margin-left: 15px;
+                    margin-bottom:18px;
+
+                    input,
+                    select {
+                        outline: none;
+                        box-shadow: none;
+                        height: 40px;
+                        border: 1px solid #d9d9db;
+                        border-radius: 5px;
+                        width: 300px;
+                        padding-right: 10px;
+                        &:focus {
+                            border: 3px solid rgb(4, 197, 126, .4);
+                        }
+                    }
+
+                    textarea {
+                        outline: none;
+                        border: 1px solid #d9d9db;
+                        border-radius: 5px;
+                        padding-right: 10px;
+                        @media(min-width:576px){
+                            width: 400px;
+                            height: 100px;
+                        }
+                        @media(min-width:768px){
+                            width: 450px;
+                            height: 100px;
+                        }
+                        @media(min-width:992px){
+                            width: 700px;
+                            height: 100px;
+                        }
+                        @media(min-width:1200px){
+                            width: 920px;
+                            height: 100px;
+                        }
+                    }
+
+                    .file-wr {
+                        position: relative;
+
+                        label.text-button {
+                            position: absolute;
+                            line-height: 40px;
+                            left: 0;
+                            right: 0;
+                            top: 0;
+                            bottom: 0;
+                            background-color: #fff;
+                            border-radius: 5px;
+                            overflow: hidden;
+                            border: 1px solid #d9d9db;
+                            padding-right: 10px;
+                            margin-bottom: 0;
+                            &:hover {
+                                cursor: pointer;
+                            }
+                            &:focus {
+                                border: 3px solid rgb(4, 197, 126, .4);
+                                outline: 0;
+                            }
+                        }
+
+                        label.text-file {
+                            position: absolute;
+                            cursor: pointer;
+                            width: 75px;
+                            height: 40px;
+                            border-radius: 5px 0 0 5px;
+                            text-align: center;
+                            line-height: 40px;
+                            left: 0;
+                            top: 0;
+                            bottom: 0;
+                            z-index: 1;
+                            background-color: #EAECF4;
+                        }
+
+                    }
+
+                    .dropdown.bootstrap-select{
+                        outline: none;
+                        box-shadow: none;
+                        height: 40px;
+                        border: 1px solid #d9d9db;
+                        border-radius: 5px;
+                        width: 300px;
+                        margin-top: 0;
+                        &:focus {
+                            border: 3px solid rgb(4, 197, 126, .4);
+                        }
+
+                        .dropdown-menu.show {
+                            width: 280px;
+
+                            .dropdown-menu.inner.show {
+
+                                .dropdown-item {
+                                    text-align: right;
+                                    padding-right: 10px;
+
+                                    span.text {
+                                        margin-right: 10px;
+                                    }
+                                }
+
+                                .dropdown-item.active.selected {
+                                    background: #fff;
+                                    color: black;
+                                    text-align: right;
+                                }
+                            }
+                        }
+
+                        button {
+                            margin: 0;
+                            width: 100%;
+                            background: #fff;
+                            border: none;
+
+                            .filter-option {
+
+                                .filter-option-inner {
+
+                                    .filter-option-inner-inner {
+                                        text-align: right;
+                                    }
+                                }
+                            }
+
+                        }
+
+                        input {
+                            width: 99%;
+                        }
+
+                    }
+
+                }
+
+                button {
+                    margin-top: 20px;
+                    margin-left: 10px
+                }
+
+                #attrvalues {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                #varivalues-wr {
+                    display: flex;
+                    flex-direction: column;
+
+                    #varivalues {
+                        .recordset {
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                    }
+
+                }
+
+                .collapse-variation {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 20px;
+                    border: 1px solid rgb(224, 224, 224);
+                    border-radius: 7px;
+                    margin-top: 10px;
+
+                    p {
+                        margin: auto;
+                    }
+
+                    label {
+                        margin-bottom: 1px;
+                    }
+
+                    .input-g {
+                        margin:0 auto;
+                        margin-bottom: 10px;
+
+                        input {
+                            width: 300px;
+
+                        }
+                    }
+                }
+
+                button.sabt-virayesh {
+                    margin-bottom: 20px;
+                }
+
+            }
+        }
+    }
+
+    // Response For Max-Width 576px
+    @media (max-width:576px){
+
+        .page {
+                margin-right: 0;
+                margin-left: 0;
+                font-size: 1rem;
+
+            .page-header {
+                padding: 12px 15px 0 15px;
+
+                .wrapp{
+                    .title {
+                        font-size: 1.2rem;
+                    }
+
+                    .back-wrap {
+                        display: flex;
+                        flex-direction: column;
+
+                        a.back {
+                            max-width: fit-content;
+                            white-space: nowrap;
+                        }
+                    }
+
+                    hr {
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+            .page-content {
+
+                form {
+                    flex-direction: column;
+                    align-items: center;
+
+                    .input-g {
+                        margin-left: 0;
+                        width: 280;
+
+                        input,
+                        select {
+                            width: 280px;
+                            height: 30px;
+                        }
+
+                        textarea {
+                            width: 280px;
+                            height: 70px;
+                        }
+
+                        .file-wr {
+
+                            label.text-button {
+                                line-height: 30px;
+                            }
+
+                            label.text-file {
+                                width: 60px;
+                                height: 30px;
+                                line-height: 30px;
+                            }
+
+                        }
+
+                        .dropdown.bootstrap-select{
+                            width: 280px;
+                            height: 30px;
+
+                            .dropdown-menu.show {
+
+                                .bs-searchbox {
+
+                                    .form-control {
+
+                                        height: calc(1.5em + 0.75rem + -7px);
+
+                                    }
+                                }
+
+                            }
+
+                            button {
+                                line-height: 20px;
+                            }
+                        }
+                    }
+
+
+                    #attrvalues {
+                        justify-content: center;
+                    }
+
+                    button.btn-coll {
+                        margin-top: 10px;
+                    }
+
+                    #varivalues-wr {
+
+                        .btnPlus {
+                            margin-right: 10px;
+                        }
+
+                        #varivalues {
+
+                            .recordset {
+                                justify-content: center;
+
+                                i.btnMinus {
+                                    margin-right: -25px;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .collapse-variation {
+
+                        p {
+                            margin: auto;
+                        }
+
+                        label {
+                            margin-bottom: 1px;
+                        }
+
+                        .input-g {
+                            margin:0 auto;
+                            margin-bottom: 10px;
+
+                            input {
+                                width: 300px;
+
+                            }
+                        }
+
+                    }
+
+                    button.sabt-virayesh {
+                        max-width: fit-content;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#content.h-toggle {
+
+    @media (max-width:576px){
+
+        .page {
+
+            .page-content {
+
+                form {
+
+                    .input-g {
+
+                        input,
+                        select,
+                        textarea,
+                        .dropdown.bootstrap-select {
+                            max-width: fit-content;
+                            min-width: 240px;
+                        }
+
+                        .dropdown.bootstrap-select {
+
+                            .dropdown-menu.show {
+                                width: 257px;
+                            }
+                        }
+
+                        input.file {
+                             max-width: 240px;
+                        }
+                    }
+
+                    #varivalues-wr {
+
+                        #varivalues {
+
+                            .recordset {
+
+                                i.btnMinus {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .collapse-variation {
+                        padding: 10px;
+
+                            .input-g {
+
+                                input {
+                                    max-width: fit-content;
+                                    min-width: 235px;
+                                }
+                            }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.popover.mds-bootstrap-persian-datetime-picker-popover
+{
+    max-width: fit-content;
+}
+

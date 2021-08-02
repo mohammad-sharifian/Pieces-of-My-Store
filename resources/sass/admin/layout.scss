@@ -1,0 +1,215 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+@import "./sections/base";
+
+@import "bootstrap-select/sass/bootstrap-select.scss";
+
+@import "md.bootstrappersiandatetimepicker/dist/jquery.md.bootstrap.datetimepicker.style.css";
+
+#top-header-bg {
+    background-color: rgb(222,250,239);
+    position: sticky;
+    height: 7px;
+    top: 0;
+    z-index: 1000;
+    @include media-breakpoint-only(xs){
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+    @include media-breakpoint-only(sm){
+        margin: 0 104px 0 7px;
+    }
+}
+
+@import "./sections/header";
+
+#bottom-header-bg {
+    background-color: rgb(222,250,239);
+    position: sticky;
+    height: 7px;
+    margin-right: 230px;
+    top: 57px;
+    z-index: 1000;
+    @include media-breakpoint-only(xs){
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+    @include media-breakpoint-only(sm){
+        margin: 0 104px 0 7px;
+    }
+}
+
+#content {
+    margin: 0 230px 0 7px;
+    @include media-breakpoint-only(xs){
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+    @include media-breakpoint-only(sm){
+        margin: 0 104px 0 7px;
+    }
+
+    .page {
+        background-color: #fff;
+        border-radius: 7px;
+
+        .page-header {
+            color: #8F94A4;
+            background-color: #fff;
+            padding: 30px 30px 5px 30px;
+            z-index: 1000;
+            border-radius: 7px;
+            position: sticky;
+            top: 64px;
+
+            .wrapp {
+                display: flex;
+                align-items: center;
+
+                h5 {
+                    font-weight: bold;
+                    @include media-breakpoint-only(xs){
+                        font-size: 16px;
+                    }
+                }
+
+                .back {
+                    margin-right: auto;
+                }
+            }
+
+
+        }
+
+        .page-content {
+            padding:0 30px 30px 30px;
+            @include media-breakpoint-only(xs){
+                padding:0 5px 5px 5px;
+            }
+        }
+    }
+
+
+}
+
+#top-header-bg.h-toggle {
+    margin-right: 104px;
+    margin-left: 7px;
+    @include media-breakpoint-only(xs){
+        margin-right: 84px;
+        margin-left: 7px;
+    }
+    @include media-breakpoint-only(sm){
+        margin: 0 7px 0 7px;
+    }
+
+    &.s-toggle {
+        margin-right: 107px;
+        margin-left: 7px;
+    }
+}
+
+#bottom-header-bg.h-toggle {
+    margin-right: 230px;
+    margin-left: 7px;
+    @include media-breakpoint-only(xs){
+        margin-right: 84px;
+        margin-left: 7px;
+    }
+    @include media-breakpoint-only(sm){
+        margin: 0 7px 0 7px;
+    }
+
+    &.s-toggle {
+        margin-right: 107px;
+        margin-left: 7px;
+    }
+}
+
+#top-header-bg.s-toggle {
+    margin-right: 104px;
+    margin-left: 7px;
+    @include media-breakpoint-only(xs){
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+    @include media-breakpoint-only(sm){
+        margin: 0 104px 0 7px;
+    }
+
+    &.h-toggle {
+        margin-right: 104px;
+        margin-left: 7px;
+        @include media-breakpoint-only(sm){
+            margin-right: 7px;
+            margin-left: 7px;
+        }
+    }
+}
+
+#bottom-header-bg.s-toggle {
+    margin-right: 104px;
+    margin-left: 7px;
+    @include media-breakpoint-only(xs){
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+    @include media-breakpoint-only(sm){
+        // margin: 0 104px 0 7px;
+    }
+
+    &.h-toggle {
+        margin-right: 104px;
+        margin-left: 7px;
+        @include media-breakpoint-only(sm){
+            margin-right: 7px;
+            margin-left: 7px;
+        }
+    }
+}
+
+#content.h-toggle {
+    margin: 0 230px 0 7px;
+    @include media-breakpoint-down(xs){
+        margin-right: 84px;
+
+        .page {
+
+            .page-header {
+                padding: 12px 5px 0 5px;
+
+            }
+        }
+    }
+    @include media-breakpoint-only(sm){
+        margin-right: 7px;
+    }
+
+    &.s-toggle {
+        margin-right: 107px;
+        margin-left: 7px;
+    }
+}
+
+#content.s-toggle {
+    margin: 0 104px 0 7px;
+    @include media-breakpoint-down(xs){
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+
+    &.h-toggle {
+        margin-right: 104px;
+        margin-left: 7px;
+        @include media-breakpoint-only(sm){
+            margin-right: 7px;
+            margin-left: 7px;
+        }
+    }
+}
+
+@import "./sections/sidebar";
+
+@import "./sections/footer";
+
+
